@@ -152,4 +152,6 @@ main{
     width: 100%;
 }
 
-
+.home-lado{
+    float: left;
+}
