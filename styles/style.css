@@ -1,0 +1,155 @@
+@import url ('https://fonts.googleapis.com/css2? família=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    color: black;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+   background: linear-gradient(rgba(196, 126, 126, 0.8), rgb(133, 76, 76)), url(./image/Captura\ de\ tela\ 2022-07-17\ 224624.png);
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-size: 32px;
+}
+
+h1{
+    font-weight: 00;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+.pri-text{
+    width: 850px;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+
+
+.sec-text{
+    margin-bottom: 7rem;
+    font-size: 2rem;
+    color: rgb(165, 165, 156);
+    text-transform: uppercase;
+}
+
+main{
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pri-text{
+    width: 850px;
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.sec-text{
+    margin-bottom: 7rem;
+    font-size: 2rem;
+    color: rgb(165, 165, 165);
+    text-transform: uppercase;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btns button{
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    background-color: transparent;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    border-radius: 20px;
+    position: relative;
+    transition: 1.5s;
+}
+
+.btns button:hover{
+    color: rgb(251, 255, 0);
+    border: none;
+}
+
+.btns button:before{
+    content: ' ';
+    border-radius: 20px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 60px;
+    background-color: rgb(61, 61, 61);
+    z-index: -1;
+    transition: 1s;
+}
+
+.btns button:hover:before{
+    width: 100%;
+}
+
+
